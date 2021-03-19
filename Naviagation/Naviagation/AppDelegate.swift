@@ -1,8 +1,9 @@
 //
 //  AppDelegate.swift
-//  OutletConnections
+//  Naviagation
 //
-//  Created by Юлия Воротченко on 18.03.2021.
+//  Created by Юлия Воротченко on 19.03.2021.
+//  Copyright © 2021 Юлия Воротченко. All rights reserved.
 //
 
 import UIKit
