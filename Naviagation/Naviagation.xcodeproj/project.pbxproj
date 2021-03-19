@@ -13,11 +13,12 @@
 		CDF0EEE22604B0BF001EB68D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF0EEE02604B0BF001EB68D /* Main.storyboard */; };
 		CDF0EEE42604B0C0001EB68D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF0EEE32604B0C0001EB68D /* Assets.xcassets */; };
 		CDF0EEE72604B0C0001EB68D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF0EEE52604B0C0001EB68D /* LaunchScreen.storyboard */; };
-		CDF0EEF22604B0C0001EB68D /* NaviagationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0EEF12604B0C0001EB68D /* NaviagationTests.swift */; };
 		CDF0EEFE2604B311001EB68D /* CodeNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0EEFC2604B311001EB68D /* CodeNextViewController.swift */; };
 		CDF0EEFF2604B311001EB68D /* CodeNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF0EEFD2604B311001EB68D /* CodeNextViewController.xib */; };
 		CDF0EF032604B918001EB68D /* SegueNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0EF012604B918001EB68D /* SegueNextViewController.swift */; };
 		CDF0EF042604B918001EB68D /* SegueNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF0EF022604B918001EB68D /* SegueNextViewController.xib */; };
+		CDF0EF072604C21B001EB68D /* VievControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0EF062604C21B001EB68D /* VievControllerTests.swift */; };
+		CDF0EF092604C33B001EB68D /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF0EF082604C33B001EB68D /* TestHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +41,13 @@
 		CDF0EEE62604B0C0001EB68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDF0EEE82604B0C0001EB68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF0EEED2604B0C0001EB68D /* NaviagationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviagationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDF0EEF12604B0C0001EB68D /* NaviagationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviagationTests.swift; sourceTree = "<group>"; };
 		CDF0EEF32604B0C0001EB68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF0EEFC2604B311001EB68D /* CodeNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNextViewController.swift; sourceTree = "<group>"; };
 		CDF0EEFD2604B311001EB68D /* CodeNextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodeNextViewController.xib; sourceTree = "<group>"; };
 		CDF0EF012604B918001EB68D /* SegueNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueNextViewController.swift; sourceTree = "<group>"; };
 		CDF0EF022604B918001EB68D /* SegueNextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegueNextViewController.xib; sourceTree = "<group>"; };
+		CDF0EF062604C21B001EB68D /* VievControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VievControllerTests.swift; sourceTree = "<group>"; };
+		CDF0EF082604C33B001EB68D /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,9 @@
 		CDF0EEF02604B0C0001EB68D /* NaviagationTests */ = {
 			isa = PBXGroup;
 			children = (
-				CDF0EEF12604B0C0001EB68D /* NaviagationTests.swift */,
 				CDF0EEF32604B0C0001EB68D /* Info.plist */,
+				CDF0EF062604C21B001EB68D /* VievControllerTests.swift */,
+				CDF0EF082604C33B001EB68D /* TestHelpers.swift */,
 			);
 			path = NaviagationTests;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 					};
 					CDF0EEEC2604B0C0001EB68D = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 						TestTargetID = CDF0EED62604B0BF001EB68D;
 					};
 				};
@@ -242,7 +246,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF0EEF22604B0C0001EB68D /* NaviagationTests.swift in Sources */,
+				CDF0EF072604C21B001EB68D /* VievControllerTests.swift in Sources */,
+				CDF0EF092604C33B001EB68D /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +434,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NaviagationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
@@ -439,6 +445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = XoXo.NaviagationTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Naviagation.app/Naviagation";
@@ -450,6 +457,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NaviagationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
